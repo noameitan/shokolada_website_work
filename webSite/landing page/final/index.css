@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+BODY{
+	background-color:#cac4c3;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:5%;
+	margin: 0;
+	border: 0;
+	
+
+}
+a:link {color:#009bdb;}     
+a:visited {color:#009bdb;} 
+a:hover {color:#009bdb;} 
+a:active {color:#009bdb;}
+.clear{ clear:both; }
+
+img { 
+	border : 0;
+} 
+
+#main { 
+	background : url("img/bg.jpg"); 
+	background-repeat : no-repeat;
+	width : 1020px; 
+	height : 738px; 
+	position: relative;
+	margin: 0 auto;
+} 
+
+
+#send {
+	position: absolute;
+	top: 674px;
+	right: 808px;
+	cursor: pointer;
+	border: 0;
+	background: url("img/button.png");
+	width: 130px;
+	height: 130px;
+} 
+#send:hover {
+   background-position: 0px -130px;
+ }
+
+
+.txt{
+	position: absolute;
+	font:Arial;
+	color: #009bdb;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #FFF;
+
+}
+
+
+#text1 {
+	top: 14px;
+	right: 25px;
+	font-size: 58px;
+	font-weight: bold;
+}
+
+
+#logo {
+	top: 844px;
+	right: 870px;
+	position: absolute;
+	font-size: 15px;
+	color: #3b3b3b;
+}
+
+#slideshow {
+	position: absolute;
+	height: 0px;
+	width: 980px;
+	top: 50px;
+	right: -87px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:200;
+    left:50;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+#button1 {
+	top: 493px;
+	right: 97px;
+	position: absolute;
+}
+#button2 {
+	top: 659px;
+	right: 406px;
+	position: absolute;
+}
+#button3 {
+	top: 650px;
+	right: 142px;
+	position: absolute;
+}
+#video1 {
+	top: 395px;
+	right: 627px;
+	position: absolute;
+}
+
+
+
